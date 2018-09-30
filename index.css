@@ -265,7 +265,15 @@ ul.info li {
     }
 
      #content4{
-        margin-top: -300px;
+        margin-top: -230px;
+    }
+    
+    .price_container {
+        background-color: #fff;
+    }
+    
+    .form-control{
+        width: 275px;
     }
     .price_container{
         height: 100%;
@@ -280,7 +288,7 @@ ul.info li {
 
 
     #content6{
-        margin-top: -120px;
+        margin-top: -70px;
     }
 
     .btn.meeting {
@@ -308,6 +316,11 @@ ul.info li {
 .integration {
     margin-top: 130px;
 }
+
+.social_media{
+    padding-left: 0px;
+}
+
 }
 
 
@@ -334,6 +347,10 @@ display: none;
 .integration {
     margin-top: 130px;
 }
+
+.price_container {
+        background-color: #fff;
+    }
 
 }
 
@@ -390,5 +407,7 @@ display: none;
 .about_h1{
     margin-top: 0px;
 }
+
+
 
 }
