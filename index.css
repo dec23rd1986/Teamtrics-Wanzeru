@@ -287,7 +287,30 @@ ul.info li {
     width: 100px;
     display: block;
     }
+
+    #img_prev{
+    display: none;
+
 }
+
+#img_next{
+    display: none;
+}
+
+.integration{
+    margin-top: 0px;
+}
+
+.view2{
+    background-position: center; 
+}
+
+.integration {
+    margin-top: 130px;
+}
+}
+
+
 
 
 /*Small devices (landscape phones, 576px and up)*/
@@ -295,6 +318,23 @@ ul.info li {
     .about {
         margin: 0;
     }
+#img_prev{
+ display: none;
+
+}
+
+#img_next{
+display: none;
+}
+
+.view2{
+    background-position: center; 
+}
+
+.integration {
+    margin-top: 130px;
+}
+
 }
 
 
@@ -307,6 +347,28 @@ ul.info li {
     .about {
         margin: 0;
     }
+
+    .jumbo_features{
+        width: 80%;
+    }
+
+    .view2 {
+        background-position: center;
+}
+
+.integration{
+    margin-top: 180px;
+}
+
+
+
+.pricing{
+    margin-top: 20px;
+}
+
+.about_h1{
+    margin-top: 130px;
+}
 }
 
 
@@ -316,4 +378,17 @@ ul.info li {
     .about {
         margin: 30px 200px;
     }
+
+     .jumbo_features{
+        width: 55%;
+    }
+
+    .integration {
+    margin-top: 130px;
+}
+
+.about_h1{
+    margin-top: 0px;
+}
+
 }
