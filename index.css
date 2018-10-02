@@ -373,10 +373,23 @@ display: none;
 
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
-    .col-md-6 {
-        justify-content: center;
-    }
 
+#meeting_img{
+  width: 100%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  
+}
+
+#tasks_img{
+  width: 100%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  
+  
+}
     .about {
         margin: 0;
     }
