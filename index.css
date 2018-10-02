@@ -72,17 +72,13 @@ b{
 
 #meeting_img{
   width: 100%;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+
   
 }
 
 #tasks_img{
   width: 100%;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+
   
   
 }
@@ -374,22 +370,6 @@ display: none;
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
 
-#meeting_img{
-  width: 100%;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-  
-}
-
-#tasks_img{
-  width: 100%;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-  
-  
-}
     .about {
         margin: 0;
     }
