@@ -72,10 +72,19 @@ b{
 
 #meeting_img{
   width: 100%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  
 }
 
 #tasks_img{
   width: 100%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  
+  
 }
 
 h1{
@@ -122,21 +131,23 @@ h1{
 
 .meeting_info{
     font-size: 12px;
-    margin-top: 10%;
-    margin-bottom:15%;
     padding-right: .5px;
     padding-left: .5px;
-    display: inline-block; 
+    margin: 10px 5px;
+    margin-bottom: 15%;
+    padding-top: 10px;
+    display: inline-block;
     text-align: left;
 }
 
 .tasks_info{
   font-size: 12px;
-  margin-top: 5%;
-  margin-bottom: 15%;
   padding-right: .5px;
   padding-left: .5px;
-  display: inline-block; 
+  margin: 10px 5px;
+  margin-bottom: 15%;
+  padding-top: 5px;
+  display: inline-block;
   text-align: left;
 }
 
@@ -331,7 +342,9 @@ ul.info li {
 
 /*Small devices (landscape phones, 576px and up)*/
 @media (max-width: 767.98px) {
-    .about {
+
+
+.about {
         margin: 0;
     }
 #img_prev{

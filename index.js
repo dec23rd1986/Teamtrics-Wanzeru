@@ -12,8 +12,8 @@ $(document).ready(function() {
         $('#tasks_button').removeClass("active");
         $('.tasks_info').hide();
         $('#tasks_img').hide();
-        $('.meeting_info').fadeIn(3000);
-      $('#mySVG').fadeIn(3500);
+        $('.meeting_info').fadeIn(2000);
+      $('#mySVG').fadeIn(2000);
         $('#meeting_img').show();
 
     });
@@ -24,7 +24,7 @@ $(document).ready(function() {
         $('.meeting_info').hide();
         $('#meeting_img').hide();
       $('#mySVG').hide();
-        $('.tasks_info').fadeIn(3000);
+        $('.tasks_info').fadeIn(2000);
         $('#tasks_img').show();
     });
 
