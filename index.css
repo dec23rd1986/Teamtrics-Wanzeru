@@ -10,7 +10,7 @@ html {
     font-family: 'Montserrat', sans-serif;
 }
 
-b{
+b {
     font-weight: bold !important;
 }
 
@@ -60,35 +60,35 @@ b{
 
 
 
-.feature_buttons{
+.feature_buttons {
     background-color: #D34ED5;
     color: #fff;
     border-radius: 30px;
     padding: 7px 10px;
-    
+
 }
 
 
 
-#meeting_img{
-  width: 100%;
+#meeting_img {
+    width: 100%;
 
-  
+
 }
 
-#tasks_img{
-  width: 100%;
+#tasks_img {
+    width: 100%;
 
-  
-  
+
+
 }
 
-h1{
-  text-align: center;
+h1 {
+    text-align: center;
 }
 
 
-.jumbo_features {  
+.jumbo_features {
     background-color: #eae8f5;
     background-size: cover;
     border-radius: 30px;
@@ -99,33 +99,36 @@ h1{
 
 .btn {
     margin-top: 20px;
-    background-color:#eae8f5;
+    background-color: #eae8f5;
     color: black;
     border-radius: 30px;
     padding: 7px 10px;
-    border-color:#D34ED5 !important;
-      
+    border-color: #D34ED5 !important;
+
 }
 
-.btn:focus, .btn:hover, .btn:active, .active{
-  background-color: #D34ED5;
-  color: #fff;
-  box-shadow: none;
-  border-color:#D34ED5 !important;
+.btn:focus,
+.btn:hover,
+.btn:active,
+.active {
+    background-color: #D34ED5;
+    color: #fff;
+    box-shadow: none;
+    border-color: #D34ED5 !important;
 }
 
-#img_prev{
+#img_prev {
     padding-right: 200%;
     margin-right: 30%;
 }
 
-#img_next{
+#img_next {
     padding-left: 200%;
     margin-left: 30%;
 }
 
 
-.meeting_info{
+.meeting_info {
     font-size: 12px;
     padding-right: .5px;
     padding-left: .5px;
@@ -136,15 +139,15 @@ h1{
     text-align: left;
 }
 
-.tasks_info{
-  font-size: 12px;
-  padding-right: .5px;
-  padding-left: .5px;
-  margin: 10px 5px;
-  margin-bottom: 15%;
-  padding-top: 5px;
-  display: inline-block;
-  text-align: left;
+.tasks_info {
+    font-size: 12px;
+    padding-right: .5px;
+    padding-left: .5px;
+    margin: 10px 5px;
+    margin-bottom: 15%;
+    padding-top: 5px;
+    display: inline-block;
+    text-align: left;
 }
 
 
@@ -245,203 +248,153 @@ ul.info li {
     font-size: 20px;
 }
 
-/*Extra small devices (portrait phones, less than 576px)*/
-
+/* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
-    .intro{
+    .intro {
         text-align: center;
     }
-    .intro1{
+    .intro1 {
         padding-top: 50px;
         font-size: 55px;
     }
-    .intro2{
+    .intro2 {
         font-size: 55px;
     }
-    .intro3{
+    .intro3 {
         font-size: 25px;
     }
-    .about {
-        margin: 0;
-    }
-    .btn{
-        width: 100%;
-
-    }
-    .jumbo_features {
+        .jumbo_features {
         width: 80%;
     }
-    .integration{
-        color: black;
-        margin-top: 50px;
+        #img_prev {
+        display: none;
+
     }
 
-     #content4{
+    #img_next {
+        display: none;
+    }
+        #content4 {
         margin-top: -230px;
     }
     
+        .view2 {
+        background-position: center;
+    }
     .price_container {
-        background-color: #fff;
-    }
-    
-    .form-control{
-        width: 275px;
-    }
-    .price_container{
         height: 100%;
         width: 90%;
+        background-color: #fff;
     }
 
-    .card{
+    .card {
         height: 670px;
         margin: 1rem;
     }
 
-
-
+    
+        .form-control {
+        width: 275px;
+    }
+    
     #content6{
-        margin-top: -70px;
+        margin-top: -60px;
     }
-
-    .btn.meeting {
-    width: 100px;
-    display: block;
-    }
-
-    #img_prev{
-    display: none;
-
 }
-
-#img_next{
-    display: none;
-}
-
-.integration{
-    margin-top: 0px;
-}
-
-.view2{
-    background-position: center; 
-}
-
-.integration {
-    margin-top: 130px;
-}
-
-.social_media{
-    padding-left: 0px;
-}
-
-}
-
-
-
 
 /*Small devices (landscape phones, 576px and up)*/
-@media (max-width: 767.98px) {
-
-
-.about {
-        margin: 0;
-    }
-#img_prev{
- display: none;
-
-}
-
-#img_next{
-display: none;
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .view {
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%;
+    height: 150%;
 }
 
 .jumbo_features{
-        width: 80%;
+width:45%;
+}
+
+        #img_prev {
+        display: none;
+
     }
-.view2{
-    background-position: center; 
-}
 
-.integration {
-    margin-top: 130px;
-}
-
-#content4 {
-    margin-top: -360px;
-}
-
-.price_container{
-    width: 95%;
-}
-
-.card{
-    width: 13rem;
-    height: 690px;
-}
-
-.pricing{
-    margin-top: 20px;
-}
-
-/*#content6 {*/
-/*    margin-top: -160px;*/
-/*}*/
-
-.about_h1{
-    margin-top: 130px;
-}
-}
-
-
-/* Large devices (desktops, 992px and up)*/
-@media (max-width: 991.98px) {
-
-    
-.jumbo_features{
-        width: 80%;
-    }
-    
-    .view2{
-        background-position: center;
-    }
-    .integration {
-    margin-top: 200px;
-}
-
-#content4 {
-    margin-top: -300px;
-}
-
-.price_container{
-    width: 95%;
-}
-
-.card{
-    width: 13rem;
-    height: 690px;
-}
-
-}
-/*Large devices (desktops, less than 1200px)*/
-@media (max-width: 1199.98px) {
-    .jumbo_features{
-        width:80%;
-    }
-    
-    .view2{
-        background-position: center;
+    #img_next {
+        display: none;
     }
     
     .integration{
-        margin-top: 230px
+        margin-top: 250px;
+    }
+    
+    .price_container{
+        background-color: inherit;
+    }
+    
+
+}
+
+@media (min-width: 600px) and (max-width: 800px) {
+    
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .jumbo_features{
+        width:80%;
+    }
+    .view2{
+        background-position: center;
+    }
+    .integration{
+        margin-top: 240px;
+    }
+    
+    #content4{
+        margin-top: -350px;
     }
     
     .price_container{
         width: 95%;
     }
     
-    /*#content4{*/
-    /*    margin-top: -400px;*/
-    /*}*/
+    .card{
+        width: 13rem;
+        height: 670px;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .price_container{
+        width: 90%;
+    }
+    
+    .integration{
+        margin-top: 190px;
+    }
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    .price_container {
+    background-color: #eae8f5;
+    background-size: cover;
+    border-radius: 30px;
+    height: 750px;
+    margin-top: 50px;
+    justify-content: center;
+    width: 80%;
+}
+
+.integration {
+    margin-top: 140px;
 
 }
+}
+
+
+
 
