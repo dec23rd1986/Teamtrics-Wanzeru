@@ -53,6 +53,7 @@ b {
     background-image: url("img/back2.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     overflow: hidden;
     width: 100%;
     height: 100vh;
@@ -249,6 +250,7 @@ ul.info li {
 }
 
 /* Extra small devices (portrait phones, less than 576px)*/
+
 @media (max-width: 575.98px) {
     .intro {
         text-align: center;
@@ -263,10 +265,10 @@ ul.info li {
     .intro3 {
         font-size: 25px;
     }
-        .jumbo_features {
+    .jumbo_features {
         width: 80%;
     }
-        #img_prev {
+    #img_prev {
         display: none;
 
     }
@@ -274,11 +276,11 @@ ul.info li {
     #img_next {
         display: none;
     }
-        #content4 {
+    #content4 {
         margin-top: -230px;
     }
-    
-        .view2 {
+
+    .view2 {
         background-position: center;
     }
     .price_container {
@@ -292,32 +294,33 @@ ul.info li {
         margin: 1rem;
     }
 
-    
-        .form-control {
+
+    .form-control {
         width: 275px;
     }
-    
-    #content6{
+
+    #content6 {
         margin-top: -60px;
     }
 }
 
 /*Small devices (landscape phones, 576px and up)*/
+
 @media (min-width: 576px) and (max-width: 767.98px) {
     .view {
-    
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
-    width: 100%;
-    height: 150%;
-}
 
-.jumbo_features{
-width:45%;
-}
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+        width: 100%;
+        height: 150%;
+    }
 
-        #img_prev {
+    .jumbo_features {
+        width: 45%;
+    }
+
+    #img_prev {
         display: none;
 
     }
@@ -325,76 +328,78 @@ width:45%;
     #img_next {
         display: none;
     }
-    
-    .integration{
+
+    .integration {
         margin-top: 250px;
     }
-    
-    .price_container{
+
+    .price_container {
         background-color: inherit;
     }
-    
+
 
 }
 
-@media (min-width: 600px) and (max-width: 800px) {
-    
-}
+@media (min-width: 600px) and (max-width: 800px) {}
+
 /*Medium devices (tablets, 768px and up)*/
+
 @media (min-width: 768px) and (max-width: 991.98px) {
-    .jumbo_features{
-        width:80%;
+    .jumbo_features {
+        width: 80%;
     }
-    .view2{
+    .view2 {
         background-position: center;
     }
-    .integration{
+    .integration {
         margin-top: 240px;
     }
-    
-    #content4{
+
+    #content4 {
         margin-top: -350px;
     }
-    
-    .price_container{
+
+    .price_container {
         width: 95%;
     }
-    
-    .card{
+
+    .card {
         width: 13rem;
         height: 670px;
     }
 }
 
 /*Large devices (desktops, 992px and up)*/
+
 @media (min-width: 992px) and (max-width: 1199.98px) {
-    .price_container{
-        width: 90%;
+    .jumbo_features{
+        width: 85%;
     }
     
-    .integration{
+    .price_container {
+        width: 90%;
+    }
+
+    .integration {
         margin-top: 190px;
     }
 }
 
 /*Extra large devices (large desktops, 1200px and up)*/
+
 @media (min-width: 1200px) {
     .price_container {
-    background-color: #eae8f5;
-    background-size: cover;
-    border-radius: 30px;
-    height: 750px;
-    margin-top: 50px;
-    justify-content: center;
-    width: 80%;
+        background-color: #eae8f5;
+        background-size: cover;
+        border-radius: 30px;
+        height: 750px;
+        margin-top: 50px;
+        justify-content: center;
+        width: 80%;
+    }
+
+    .integration {
+        margin-top: 140px;
+
+    }
 }
-
-.integration {
-    margin-top: 140px;
-
-}
-}
-
-
-
-
