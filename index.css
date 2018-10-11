@@ -9,6 +9,17 @@ html {
     overflow-x: hidden;
     font-family: 'Montserrat', sans-serif;
 }
+.navbar-brand{
+    margin-left: 35px;
+    margin-bottom: -10px;
+    margin-top:10px;
+}
+.navbar-nav > li{
+    margin: 10px 35px -15px 35px;
+    font-size: 12px;
+ 
+ 
+}
 
 b {
     font-weight: bold !important;
@@ -224,8 +235,8 @@ ul.info li {
 .about {
     text-align: center;
     font-size: 16px;
-    margin: 0 50px;
-    padding: 0 30px;
+    margin: 0 90px;
+    padding: 0 60px;
 }
 
 #content7 {
@@ -339,6 +350,10 @@ ul.info li {
 /*Medium devices (tablets, 768px and up)*/
 
 @media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar-brand{
+        margin:0px;
+    }
+    
     .jumbo_features {
         width: 80%;
     }
