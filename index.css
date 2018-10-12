@@ -10,12 +10,15 @@ html {
     font-family: 'Montserrat', sans-serif;
 }
 .navbar-brand{
-    margin-left: 35px;
+    
     margin-bottom: -10px;
-    margin-top:10px;
+    margin-top:15px;
+    margin-right: 6rem;
 }
 .navbar-nav > li{
-    margin: 10px 35px -15px 35px;
+    margin-bottom: -16px;
+    margin-top: 17px;
+    margin-right: .7rem;
     font-size: 12px;
  
  
@@ -70,18 +73,6 @@ b {
     height: 100vh;
 }
 
-#meeting_img {
-    width: 100%;
-
-
-}
-
-#tasks_img {
-    width: 100%;
-
-
-
-}
 
 h1 {
     text-align: center;
@@ -93,6 +84,7 @@ h1 {
     background-size: cover;
     border-radius: 30px;
     width: 60%;
+    height: 550px;
     text-align: center;
     padding: 5px 40px;
     
@@ -123,11 +115,13 @@ h1 {
 #img_prev {
     padding-right: 320%;
     margin-right: 50%;
+    
 }
 
 #img_next {
     padding-left: 320%;
     margin-left: 50%;
+   
 }
 
 
@@ -136,7 +130,7 @@ h1 {
     font-size: 13px;
     padding-right: 4px;
     padding-left: 4px;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
     display: inline-block;
     text-align: left;
     justify-content: center;
@@ -149,7 +143,7 @@ h1 {
     font-size: 13px;
     padding-right: 4px;
     padding-left: 4px;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
     display: inline-block;
     text-align: left;
     justify-content: center;
@@ -160,7 +154,7 @@ h1 {
 
 
 .integration {
-    margin-top: 140px;
+    margin-top: 130px;
     margin-bottom: 25px;
     color: #fff;
 }
@@ -182,13 +176,14 @@ h1 {
 }
 
 .card {
-    width: 16.5rem;
+    width: 16rem;
     border-radius: 30px;
-    height: 625px;
+    height: 605px;
 }
 
+
 .card-header {
-    height: 50px;
+    height: 45px;
     background-color: #D34ED5;
     color: #fff;
     border-radius: 30px 30px 0px 0px !important;
@@ -272,8 +267,20 @@ ul.info li {
     .intro3 {
         font-size: 25px;
     }
+    
+    img{
+        width:100%;
+    }
+    
+    #meeting_button{
+        width: 160px;
+    }
+    #info_button{
+        width: 160px;
+    }
     .jumbo_features {
-        width: 80%;
+        width: inherit;
+        height: inherit;
     }
     #img_prev {
         display: none;
@@ -297,7 +304,8 @@ ul.info li {
     }
 
     .card {
-        height: 670px;
+        height: inherit;
+        width: inherit;
         margin: 1rem;
     }
 
@@ -308,6 +316,9 @@ ul.info li {
 
     #content6 {
         margin-top: -60px;
+    }
+    .about{
+        margin:auto;
     }
 }
 
@@ -324,7 +335,8 @@ ul.info li {
     }
 
     .jumbo_features {
-        width: 45%;
+        width: inherit;
+        height: inherit;
     }
 
     #img_prev {
@@ -340,6 +352,8 @@ ul.info li {
 
     .price_container {
         background-color: inherit;
+        width: inherit;
+        height: inherit;
     }
 
 
@@ -359,6 +373,16 @@ ul.info li {
     }
     .view2 {
         background-position: center;
+    }
+    
+    .meeting_info{
+        padding-bottom: 0px;
+        font-size: 10px;
+    }
+    
+    .tasks_info{
+       padding-bottom: 0px;
+        font-size: 10px; 
     }
     .integration {
         margin-top: 240px;

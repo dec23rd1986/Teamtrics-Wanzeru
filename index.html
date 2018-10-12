@@ -23,29 +23,34 @@
 <body>
     <!-- Start project here-->
     <!--Navbar-->
-    <nav class="navbar navbar-expand-sm navbar-light bg-light sticky-top" data-toggle="affix">
-        <a class="navbar-brand" href="index.html"><img src="img/wanzeru_logo1.png" class="img-fluid"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-sm navbar-light bg-light" data-toggle="affix">
+        <div class="mx-auto d-sm-flex d-block flex-sm-nowrap">
+            <a class="navbar-brand" href="index.html"><img src="img/wanzeru_logo1.png" class="img-fluid"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#content1"><b>Wanzeru</b></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#content2"><b>Feature</b></a>
-                </li>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#content3"><b>Integrating</b></a>
+                        <a class="nav-link" href="#index.html"><b>Wanzeru</b></a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#content2"><b>Feature</b></a>
+                    </li>
+                    
                         <li class="nav-item">
-                            <a class="nav-link" href="#content4"><b>Pricing</b></a>
+                            <a class="nav-link" href="#content3"><b>Integrating</b></a>
                         </li>
+                       
                             <li class="nav-item">
-                                <a class="nav-link" href="#content6"><b>About</b></a>
+                                <a class="nav-link" href="#content4"><b>Pricing</b></a>
                             </li>
-            </ul>
+                            
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#content6"><b>About</b></a>
+                                </li>
+                </ul>
+            </div>
         </div>
     </nav>
     <!--Sections: Main features & About-->
@@ -80,13 +85,13 @@
             <br>
             <div class="container-fluid jumbo_features">
                 <div class="row ">
-                    <div class="col-lg col-md-6 justify-content-center">
+                    <div class="col-lg col-md-6 col-sm-6 justify-content-center">
                         <a class="carousel-control-prev" href="#" role="button" data-slide="prev"><img src="img/previous_arrow.png" id="img_prev"></a>
-                        <img src="img/phone-base-meeting1.png" id="meeting_img" style=" display: flex; align-items: center;flex-wrap: wrap;">
+                        <img src="img/phone-base-meeting1.png" id="meeting_img">
                         <img src="img/phone-base-task1.png" id="tasks_img"></div>
-                    <div class="col-lg col-md-6 text-center">
-                        <button type="button" class="btn active" aria-pressed="true" id="meeting_button" style="width: 230px; border:1px solid #D34ED5;">Meeting</button>
-                        <button type="button" class="btn btn" aria-pressed="true" id="tasks_button" style="width: 230px; border:1px solid #D34ED5;">Tasks</button>
+                    <div class="col-lg col-md-6 col-sm-6 text-center">
+                        <button type="button" class="btn active" aria-pressed="true" id="meeting_button" style="width: 230px; border:1px solid #D34ED5; margin-bottom: 1.5px;"><b>Meeting</b></button>
+                        <button type="button" class="btn btn" aria-pressed="true" id="tasks_button" style="width: 230px; border:1px solid #D34ED5;"><b>Tasks</b></button>
                         <!--Meeting-->
                         <p class="meeting_info" style="padding-top:20px;"><b>Schedules Meetings:</b>
                             <br>No more ping pong emails to find the right time. Wanzeru schedules your meetings with the press of a button.</p>
