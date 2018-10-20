@@ -16,21 +16,26 @@
     <link rel="stylesheet" type="text/css" href="index.css">
     <!--Google Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+      <script>
+    // Picture element HTML5 shiv
+    document.createElement( "picture" );
+  </script>
+  <script src="https://cdn.rawgit.com/scottjehl/picturefill/3.0.2/dist/picturefill.js" async>
+  </script>
 </head>
 
 <body>
     <!-- Start project here-->
     <!--Navbar-->
-    <nav class="navbar navbar-expand-sm navbar-light bg-light" data-toggle="affix">
-        <div class="mx-auto d-sm-flex d-block flex-sm-nowrap">
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <!--<div class="mx-auto d-sm-flex d-block flex-sm-nowrap">-->
             <a class="navbar-brand" href="index.html"><img src="img/wanzeru_logo1.png" class="img-fluid" style="width: 100%; height: auto;"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav">
+            <div class="navbar-collapse collapse justify-content-stretch" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="#index.html"><b>Wanzeru</b></a>
                     </li>
@@ -131,15 +136,15 @@
         <section>
             <h1 class="text-center">Pricing</h1>
             <br>
-            <div class="container-fluid d-flex align-items-center price_container text-center">
+            <div class="container-fluid d-flex align-items-center price_container text-center justify-content-center">
                 <div class="row">
-                    <div class="col-md-4 col-sm-4 text-center">
-                        <div class="card">
+                    <div class="col-md-4 text-center justify-content-center">
+                        <div class="card justify-content-center">
                             <div class="card-header">Educator</div>
-                            <div class="card-body d-flex flex-column">
+                            <div class="card-body d-flex flex-column align-items-center">
                                 <img src="img/price_edu.png" class="img-fluid">
                                 <h7 class="card-title"><b>Use Wanzeru Ed</b></h7>
-                                <ul style="font-weight: bold;">
+                                <ul>
                                     <li>FREE for ONE class</li>
                                     <li>Matches students into ideal teams</li>
                                     <li>Real-time feedback</li>
@@ -148,13 +153,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-4 text-center">
-                        <div class="card">
+                    <div class="col-md-4 text-center justify-content-center">
+                        <div class="card justify-content-center">
                             <div class="card-header">Individual</div>
-                            <div class="card-body d-flex flex-column">
+                            <div class="card-body d-flex flex-column align-items-center ">
                                 <img src="img/price_indi.png" class="img-fluid">
                                 <h7 class="card-title"><b>Hire Wanzeru to be your meeting (Find word)</b></h7>
-                                <ul style="font-weight: bold;">
+                                <ul>
                                     <li>$9.99/month</li>
                                     <li>Schedules unlimited meetings</li>
                                     <li>Facilitates unlimited meetings</li>
@@ -167,13 +172,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-4 text-center">
-                        <div class="card">
+                    <div class="col-md-4 text-center justify-content-center">
+                        <div class="card justify-content-center">
                             <div class="card-header">Business</div>
-                            <div class="card-body d-flex flex-column">
+                            <div class="card-body d-flex flex-column align-items-center">
                                 <img src="img/price_entur.png" class="img-fluid">
                                 <h7 class="card-title"><b>Hire Wanzeru for your business team</b></h7>
-                                <ul style="font-weight: bold;">
+                                <ul>
                                     <li>Schedules all team meetings</li>
                                     <li>Facilitates every meetings</li>
                                     <li>Takes meeting notes</li>
@@ -183,7 +188,7 @@
                                     <li>Provides real time progress reports of each team</li>
                                     <li>Fully compliant with each business data policy</li>
                                 </ul>
-                                <button type="button" class="btn mt-auto btn-block" style="background-color: #2F8EE1; color:#fff;"><a href="mailto:info@teamtrics.com" style="color:#fff;">Get Quotes></a></button>
+                                <button type="button" class="btn mt-auto btn-block" style="background-color: #2F8EE1; color:#fff;"><a href="mailto:info@teamtrics.com" style="color:#fff;">Get Quotes</a></button>
                             </div>
                         </div>
                     </div>
@@ -202,8 +207,13 @@
                 <br>
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-md-6 col-sm-6 d-flex justify-content-end">
-                            <img src="img/sign_up.png" class="img-fluid">
+                        <div class="col-md-6 justify-content-md-end justify-content-center d-flex">
+                            <picture>
+                                 <source media="(max-width: 480px)" srcset="/img/sign_upSmall.png">
+                                 <source media="(max-width: 768px)" srcset="/img/sign_upMed.png">
+                                <img src="img/sign_up.png" alt="pic">
+                            </picture>
+                            
                         </div>
                         <div class="col-md-6 justify-content-md-start justify-content-center d-flex text-center" style="margin-top: 50px;">
                             <form>
