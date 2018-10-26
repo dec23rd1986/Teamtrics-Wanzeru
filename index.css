@@ -76,7 +76,7 @@ h1 {
     background-size: cover;
     border-radius: 40px;
     width: 65%;
-    height: 570px;
+    height: inherit;
     text-align: center;
     padding: 15px 50px;
     
@@ -118,23 +118,34 @@ h1 {
  #meeting_button{
         margin-top: 30px;
     }
-.meeting_info {
-    margin: 15px 35px;
-    font-size: 13px;
+    
+.features_title{
+    
+    font-size: 11px;
     display: inline-block;
     text-align: left;
     justify-content: center;
-    line-height: 1.2rem;
+    font-weight: bold;
+
+}
+
+.meeting_info {
+    margin: 20px 35px;
+    font-size: 12.5px;
+    display: inline-block;
+    text-align: left;
+    justify-content: center;
+    line-height: 1.3rem;
 
 }
 
 .tasks_info {
-    margin: 15px 35px;
-    font-size: 13px;
+    margin: 20px 35px;
+    font-size: 12.5px;
     display: inline-block;
     text-align: left;
     justify-content: center;
-    line-height: 1.2rem;
+    line-height: 1.3rem;
 
 }
 
@@ -175,6 +186,8 @@ h1 {
     width: 16rem;
     border-radius: 30px;
     height: 630px;
+    float: none;
+    margin: 0 auto;
 }
 
 
@@ -189,6 +202,7 @@ ul {
     text-align: left;
     font-size: 12.5px;
     line-height: 1.1rem;
+    justify-content: center;
     
     
 }
@@ -275,23 +289,22 @@ ul.info li {
     #info_button{
         width: 160px;
     }
+
     .jumbo_features {
         width: inherit;
         height: inherit;
     }
     
-    #meeting_img{
-        width: inherit;
-    }
-    #tasks_img{
-        width: inherit;
-    }
     #img_prev {
         display: none;
 
     }
 
     #img_next {
+        display: none;
+    }
+    
+    .carousel-control-prev{
         display: none;
     }
     #content4 {
@@ -307,11 +320,13 @@ ul.info li {
         background-color: #fff;
     }
 
-    .card {
-        height: inherit;
-        width: inherit;
-        margin: 1rem;
-    }
+.card {
+    width: inherit;
+    border-radius: 30px;
+    height: inherit;
+    float: none;
+    margin: 15px auto;
+}
     
     .card-body{
         width: inherit;
