@@ -13,11 +13,6 @@ $('form').submit(function(event) {
         data: {
             email: userEmail
         },
-        success: function(response) {
-            console.log(response);
-        }
-
-
 
     });
 });
