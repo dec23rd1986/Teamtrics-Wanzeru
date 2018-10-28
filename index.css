@@ -236,6 +236,13 @@ ul.info li {
     margin-bottom: 10px !important;
 }
 
+.signupMsg{
+  color: #fff;
+  font-size: 15px;
+  padding: 5px 0px;
+ ;
+}
+
 #content6 {
     margin-top: -223px;
 }
