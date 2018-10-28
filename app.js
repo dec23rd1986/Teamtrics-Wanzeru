@@ -15,7 +15,7 @@ app.listen(process.env.PORT, process.env.IP, function() {
 });
 
 app.post('/', function(req, res) {
-    addEmailToMailchimp(req.body.email)
+    addEmailToMailchimp(req.body.email);
     res.end('SUCCESS!');
 });
 
