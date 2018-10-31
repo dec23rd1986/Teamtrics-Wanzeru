@@ -10,19 +10,20 @@ html {
     font-family: 'Montserrat', sans-serif;
 }
 
-.navbar-brand{
-    
+.navbar-brand {
+
     margin-bottom: -10px;
-    margin-top:15px;
+    margin-top: 15px;
     margin-right: 6rem;
 }
-.navbar-nav > li{
+
+.navbar-nav>li {
     margin-bottom: -16px;
     margin-top: 17px;
     margin-right: .7rem;
     font-size: 15px;
- 
- 
+
+
 }
 
 b {
@@ -79,7 +80,7 @@ h1 {
     height: inherit;
     text-align: center;
     padding: 15px;
-    
+
 }
 
 
@@ -107,21 +108,21 @@ h1 {
 #img_prev {
     padding-right: 320%;
     margin-right: 50%;
-    
+
 }
 
 #img_next {
     padding-left: 320%;
     margin-left: 50%;
-   
+
 }
 
- #meeting_button{
-        margin-top: 30px;
-    }
-    
-.features_title{
-    
+#meeting_button {
+    margin-top: 30px;
+}
+
+.features_title {
+
     font-size: 11px;
     display: inline-block;
     text-align: left;
@@ -204,8 +205,8 @@ ul {
     font-size: 12.5px;
     line-height: 1.1rem;
     justify-content: center;
-    
-    
+
+
 }
 
 ul.info li {
@@ -236,11 +237,11 @@ ul.info li {
     margin-bottom: 10px !important;
 }
 
-.signupMsg{
-  color: #fff;
-  font-size: 15px;
-  padding: 5px 0px;
- ;
+.signupMsg {
+    color: #fff;
+    font-size: 15px;
+    padding: 5px 0px;
+    ;
 }
 
 #content6 {
@@ -287,14 +288,14 @@ ul.info li {
     .intro3 {
         font-size: 25px;
     }
-    
-     #tasks_button{
+
+    #tasks_button {
         width: 230px;
     }
-    #meeting_button{
+    #meeting_button {
         width: 230px;
     }
-    #info_button{
+    #info_button {
         width: 160px;
     }
 
@@ -302,7 +303,7 @@ ul.info li {
         width: inherit;
         height: inherit;
     }
-    
+
     #img_prev {
         display: none;
 
@@ -311,8 +312,8 @@ ul.info li {
     #img_next {
         display: none;
     }
-    
-    .carousel-control-prev{
+
+    .carousel-control-prev {
         display: none;
     }
     #content4 {
@@ -328,19 +329,19 @@ ul.info li {
         background-color: #fff;
     }
 
-.card {
-    width: inherit;
-    border-radius: 30px;
-    height: inherit;
-    float: none;
-    margin: 15px auto;
-}
-    
-    .card-body{
+    .card {
+        width: inherit;
+        border-radius: 30px;
+        height: inherit;
+        float: none;
+        margin: 15px auto;
+    }
+
+    .card-body {
         width: inherit;
     }
-    
-    .signup{
+
+    .signup {
         width: 90%;
     }
 
@@ -351,8 +352,8 @@ ul.info li {
     #content6 {
         margin-top: -60px;
     }
-    .about{
-        margin:auto;
+    .about {
+        margin: auto;
     }
 }
 
@@ -367,11 +368,11 @@ ul.info li {
         width: 100%;
         height: 150%;
     }
-    
-                 #tasks_button{
+
+    #tasks_button {
         width: 230px;
     }
-    #meeting_button{
+    #meeting_button {
         width: 230px;
     }
 
@@ -404,10 +405,10 @@ ul.info li {
 /*Medium devices (tablets, 768px and up)*/
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-    .navbar-brand{
-        margin:0px;
+    .navbar-brand {
+        margin: 0px;
     }
-    
+
     .jumbo_features {
         width: 80%;
         padding: 15px 10px;
@@ -415,23 +416,23 @@ ul.info li {
     .view2 {
         background-position: center;
     }
-    
-    
-    
-    .meeting_info{
+
+
+
+    .meeting_info {
         padding-bottom: 0px;
         font-size: 9px;
     }
-    
-    .tasks_info{
-       padding-bottom: 0px;
-        font-size: 9px; 
+
+    .tasks_info {
+        padding-bottom: 0px;
+        font-size: 9px;
     }
-    
-     #tasks_button{
+
+    #tasks_button {
         width: 200px;
     }
-    #meeting_button{
+    #meeting_button {
         width: 200px;
     }
 
@@ -455,7 +456,7 @@ ul.info li {
         width: 95%;
     }
 
-  .signup{
+    .signup {
         width: 95%;
     }
     .card {
@@ -467,18 +468,18 @@ ul.info li {
 /*Large devices (desktops, 992px and up)*/
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
-    .jumbo_features{
+    .jumbo_features {
         width: 85%;
     }
-    
-         #tasks_button{
+
+    #tasks_button {
         width: 230px;
     }
-    #meeting_button{
+    #meeting_button {
         width: 230px;
     }
 
-    
+
     .price_container {
         width: 90%;
     }
@@ -491,11 +492,11 @@ ul.info li {
 /*Extra large devices (large desktops, 1200px and up)*/
 
 @media (min-width: 1200px) {
-    
-             #tasks_button{
+
+    #tasks_button {
         width: 230px;
     }
-    #meeting_button{
+    #meeting_button {
         width: 230px;
     }
     .price_container {
